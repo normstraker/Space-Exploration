@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Metavers Rounded";
+  src: url("Metavers Rounded.otf");
+}
+
+body {
+  margin: 0;
+  color: #a4bee1;
+}
+
+.hero {
+  /* background-image: url("/images/universe.jpg"); */
+  /* background-image: url("https://media.giphy.com/media/D5N3hQsq2FxEQ/giphy.gif"); */
+  background-image: url("images/giphy.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Metavers Rounded", sans-serif;
+  text-align: center;
+  padding: 5px 0 60px 0;
+}
+
+#main-logo {
+  width: 220px;
+}
+
+.btn-apply {
+  color: #a4bee1;
+  background: white;
+  border: none;
+  font-size: 14px;
+  padding: 4px 9px;
+  /* buttons do not inherit font-families automatically */
+  font-family: inherit;
+  font-weight: 400;
+}
+
+.underline {
+  border-bottom: 6px solid white;
+}
+
+.terms {
+  font-family: "Metavers Rounded", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 5px;
+  /* color: #a4bee1; */
+  text-shadow: 0px 0px 2px black;
+  letter-spacing: 2.5px;
+}
+
+#title{
+  text-shadow: 2px 2px 5px black;
+}
